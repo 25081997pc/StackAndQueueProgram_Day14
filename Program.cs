@@ -14,6 +14,7 @@ namespace DataStructureProblems
             obj.Push(56);
 
             obj.Display();
+            obj.IsEmpty();
             
         }
     }
