@@ -15,6 +15,7 @@ namespace DataStructureProblems
         public Node(int data)
         {
             this.data = data;
+
         }
     }
 }
