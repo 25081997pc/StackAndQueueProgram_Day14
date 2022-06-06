@@ -22,6 +22,7 @@ namespace DataStructureProblems
             queue.Enqueue(70);
 
             queue.Display();
+            queue.Dequeue();
         }
     }
 }
