@@ -38,6 +38,17 @@ namespace DataStructureProblems
                 temp = temp.next;
             }
         }
+        internal void Dequeue()
+        {
+            if(this.front == null)
+            {
+                Console.WriteLine("The Queue is empty");
+                return;
+            }
+            Console.WriteLine("Item deleted is {0}", this.front.data);
+            this.front = this.front.next;
+
+        }
 
     }
 }
